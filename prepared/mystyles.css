@@ -154,16 +154,16 @@ dt {
     text-transform: uppercase;
 }
 
-.dis-slide li, .dis-slide dt {
+.definition li, .definition dt {
     display: flex;
     align-items: center;
 }
 
-.dis-slide dt {
+.definition dt {
     font-size: 2.5rem;
 }
 
-.dis-slide svg, .dis-slide img {
+.definition svg, .definition img {
     height: 36px;
     width: 36px;
     display: block;
@@ -250,16 +250,16 @@ ul {
     color: var(--c-orange);
 }
 
-.a11y-desc dt {
+.definition dt {
     font-size: 2.7rem;
 }
 
-.a11y-desc dl {
+.definition dl {
     font-size: 2rem;
 }
 
 
-.a11y-desc svg {
+.definition svg {
     height: 40px;
     width: 40px;
 }

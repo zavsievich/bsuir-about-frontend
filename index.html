@@ -1,107 +1,279 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Presentation theme</title>
+
+<head>
+    <title>Давайте поговорим о фронтенде</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="showerStyles/styles.css" />
     <link rel="stylesheet" href="mystyles.css" />
     <style>
-      .shower {
-        --slide-ratio: calc(16 / 9);
-      }
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
     </style>
-  </head>
+</head>
 
-  <!-- activate dark mode - add .dark-mode -->
+<!-- activate dark mode - add .dark-mode -->
 
-  <body class="shower list dark-mode">
+<body class="shower list dark-mode">
     <header class="caption">
-      <h1>Presentation theme</h1>
-      <p>Zahar Avsievich, SOFTSWISS</p>
+        <h1>Давайте поговорим о фронтенде</h1>
+        <p>Захар Авсиевич, SOFTSWISS</p>
     </header>
 
     <section class="slide" id="cover" style="padding: 0">
-      <img src="pictures/cover.png" alt="Zahar Avsievich" />
+        <img src="pictures/cover.png" alt="Zahar Avsievich" />
     </section>
 
     <section class="slide">
-      <h2 class="shout">The biggest title</h2>
+        <img class="fit" src="pictures/frontenders.jpg" alt=".fit -- object-fit: cover for image" />
+        <p class="copyright">
+            <a href="https://css-tricks.com/the-great-divide/">
+                The Great Divide. JANUARY 2019 — CHRIS COYIER
+            </a>
+        </p>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <img src="pictures/frontend.png" alt="" />
+        <div class="text-on-transparent-bg centered">
+            <h2 class="" style="padding: 20px;">
+                Фронтенд — это клиентская часть продукта (интерфейс, с которым
+                взаимодействует
+                пользователь). В случае с сайтом, её формирует и выводит на экран браузер, который работает с HTML, CSS
+                и JavaScript.
+            </h2>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2 class="complementary">
+            Технологии фронтенда — везде!
+        </h2>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/layout-man.jpg" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Верстка</h2>
+                Разработка статических сайтов.
+            </dt>
+            <dd>
+                HTML/CSS/JS
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/frontend-dev.jpg" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Фронтенд</h2>
+                Разработка веб-приложений (присутствует бизнес-логика).
+            </dt>
+            <dd>
+                HTML/CSS/JS/React/Vue/Angular/TypeScript
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/fullstack.webp" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Фулстек</h2>
+                Разработка фронтенда и бэкенда приложения.
+            </dt>
+            <dd>
+                HTML/CSS/JS/React/Vue/Angular/TypeScript/Node.js/Deno
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/mobile-apps.jpg" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Мобильные приложения</h2>
+                Нативные мобильниые приложения на движках веба.
+            </dt>
+            <dd>
+                React Native/Flutter/Cordova/Ionic
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/vscode-dev.png" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Десктопные приложения</h2>
+                Нативные декстопные приложения на движках веба.
+            </dt>
+            <dd>
+                Electron/React Native
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/architecture.png" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>JS-разработка</h2>
+                Работа над логикой и архитектурой приложения.
+            </dt>
+            <dd>
+                JavaScript/TypeScript/Rescript
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/minecraft.webp" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>2D и 3D игры</h2>
+                Работа над логикой и архитектурой приложения.
+            </dt>
+            <dd>
+                Pixi.js/Babylon.js
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <iframe src="https://threejs.org/examples/#webgl_loader_collada_skinning" frameborder="0"></iframe>
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>3D в браузере</h2>
+                Работа с 3D в браузере.
+            </dt>
+            <dd>
+                Three.js/D3.js/Babylon.js
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/iot-js.jpg" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Железяки</h2>
+                Программирование микроконтроллеров и IoT.
+            </dt>
+            <dd>
+                Cylon.js/Favor/IoT.js
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide definition">
+        <img src="pictures/iot-js.jpg" alt="" class="fit">
+        <dl class="text-on-transparent-bg centered-v">
+            <dt>
+                <h2>Доступность</h2>
+                Внедрение, поддержание, аналитиз доступности приложения
+            </dt>
+            <dd>
+                Cylon.js/Favor/IoT.js
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Чем фронтенд крут?</h2>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <img src="pictures/comunity.jpg" alt="" />
+        <div class="text-on-transparent-bg ">
+            <h2 class="shout" style="padding: 20px;">
+                Комьюнити ❤️
+            </h2>
+        </div>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <img src="pictures/google-io.jpg" alt="" />
+        <div class="text-on-transparent-bg ">
+            <h2 class="shout" style="padding: 20px;">
+                Корпорации 
+            </h2>
+        </div>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <p class="copyright">
+            <a href="https://www.youtube.com/c/pepelsbey">
+                Вадим Макеев
+            </a>
+        </p>
+        <img src="pictures/makeev.png" alt="" />
+        <div class="text-on-transparent-bg ">
+            <h2 class="shout" style="padding: 20px;">
+                Обучение 👨‍💻
+            </h2>
+        </div>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <img src="pictures/spectrum.png" alt="" />
+        <div class="text-on-transparent-bg ">
+            <h2 class="shout" style="padding: 20px;">
+                Разносторонний 💥
+            </h2>
+        </div>
     </section>
 
     <section class="slide full">
-      <iframe
-        width="1920"
-        height="1080"
-        src="https://www.youtube-nocookie.com/embed/KAK-WAb9vow?controls=0"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
-
-    <section class="slide centered">
-      <div class="next text-on-transparent-bg">
-        <h2 class="shout">Text on transparent overlay</h2>
-      </div>
-      <div>Text</div>
-    </section>
-
-    <section class="slide">
-      <img
-        class="fit"
-        src="pictures/frontenders.png"
-        alt=".fit -- object-fit: cover for image"
-      />
-      <p class="copyright">
-        <a href="https://css-tricks.com/the-great-divide/">
-          The Great Divide. JANUARY 2019 — CHRIS COYIER
-        </a>
-      </p>
+        <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zn_3-ZpdDZc" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <section class="slide centered">Centered content</section>
 
     <section class="slide centered">
-      <h2 class="shout shrink">Jumping content</h2>
+        <h2 class="shout shrink">Jumping content</h2>
     </section>
 
     <section class="slide">
-      <h2 class="complementary">Middle title. Is aligned on the left side</h2>
+        <h2 class="complementary">Middle title. Is aligned on the left side</h2>
     </section>
 
     <section class="slide">
-      <h2 class="shout">
-        <a href="https://twitter.com/zavsievich">@ZAVSIEVICH</a>
-      </h2>
+        <h2 class="shout">
+            <a href="https://twitter.com/zavsievich">@ZAVSIEVICH</a>
+        </h2>
     </section>
 
     <section class="slide">
-      <h2>Links</h2>
-      <ul>
-        <li>
-          <a href="https://youtu.be/vfM0gjLBLUE"
-            >Иван Бакаидов — Пандус для сайта</a
-          >
-        </li>
-      </ul>
+        <h2>Links</h2>
+        <ul>
+            <li>
+                <a href="https://youtu.be/vfM0gjLBLUE">Иван Бакаидов — Пандус для сайта</a>
+            </li>
+        </ul>
     </section>
 
     <section class="slide centered" style="background-color: #ffffff">
-      <img src="pictures/qr-link.svg" alt="Основы WAI-ARIA" width="50%" />
+        <img src="pictures/qr-link.svg" alt="Основы WAI-ARIA" width="50%" />
     </section>
 
     <footer class="badge">
-      <a href="https://github.com/shower/shower">Сделано в Shower</a>
+        <a href="https://github.com/shower/shower">Сделано в Shower</a>
     </footer>
 
     <div class="progress"></div>
 
     <script src="highlight/index.js"></script>
     <script>
-      hljs.initHighlightingOnLoad();
+        hljs.initHighlightingOnLoad();
     </script>
     <script src="showerJS/shower.min.js"></script>
     <script src="myscript.js"></script>
-  </body>
+</body>
+
 </html>
